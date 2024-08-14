@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BIRC Filing System</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div class="header-container">
+                <img src="logo.png" alt="BIRC Logo" class="logo" />
+                <h1>BIRC Filing System</h1>
+            </div>
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#filing">Filing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Frame 1 -->
+            <section id="home" class="frame">
+                <h2>Biodiversity Informatics Research Center</h2>
+                <div class="image-slider">
+                    <img src="image1.jpg" alt="BIRC Image 1" />
+                    <img src="image2.jpg" alt="BIRC Image 2" />
+                    <img src="image3.jpg" alt="BIRC Image 3" />
+                </div>
+                <button class="view-more">View More</button>
+            </section>
+
+            <!-- Frame 2 -->
+            <section id="filing" class="frame">
+                <h2>Specimen Filing System</h2>
+                <p>
+                    Welcome to the Biodiversity Informatics Research Center's
+                    Filing System.
+                </p>
+                <div class="filing-search">
+                    <input
+                        type="text"
+                        placeholder="Search specimen..."
+                        class="search-box"
+                    />
+                    <button class="search-button">Search</button>
+                </div>
+            </section>
+
+            <!-- Frame 3 -->
+            <section id="about" class="frame">
+                <h2>About the Filing System</h2>
+                <p>
+                    Discover more about our system, its history, and how it
+                    helps manage biodiversity data.
+                </p>
+            </section>
+
+            <!-- Frame 4 -->
+            <section id="contact" class="frame">
+                <h2>Contact Us</h2>
+                <p>
+                    Have questions? Reach out to our team for more information
+                    and support.
+                </p>
+            </section>
+
+            <!-- Frame 5, 6, and 7: Specimen List -->
+            <section id="specimen-list" class="frame">
+                <h2>Specimen List</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Specimen ID</th>
+                            <th>Scientific Name</th>
+                            <th>Common Name</th>
+                            <th>Category</th>
+                            <th>Location</th>
+                            <th>Date Collected</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>Felis catus</td>
+                            <td>Domestic Cat</td>
+                            <td>Mammal</td>
+                            <td>Philippines</td>
+                            <td>2024-07-01</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>Canis lupus</td>
+                            <td>Gray Wolf</td>
+                            <td>Mammal</td>
+                            <td>Canada</td>
+                            <td>2024-07-02</td>
+                            <td>Available</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                &copy; 2024 Biodiversity Informatics Research Center. All rights
+                reserved.
+            </p>
+        </footer>
+    </body>
+</html>

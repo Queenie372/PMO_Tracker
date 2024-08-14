@@ -1,0 +1,77 @@
+#PageLogin {
+    // background-color: powderblue;
+    background-image: url(../../../../public//images/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+
+    .ant-row {
+        .pmo-logo,
+        .fsuu-logo {
+            width: 90px;
+        }
+    }
+
+    .top-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin: 45px;
+
+            ul {
+                display: flex;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: transparent;
+                gap: 50px;
+            }
+
+            li a {
+                display: block;
+                color: rgb(12, 8, 8);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: #111;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+
+        .title {
+            text-align: left;
+            border: 0cap;
+            .title1 {
+                font-size: 50px;
+                font-style: italic;
+                font-weight: 500;
+
+                p {
+                    margin: 0px !important;
+                }
+            }
+        }
+        .title2 {
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 400;
+            color: brown;
+            text-align: left;
+        }
+    }
+}

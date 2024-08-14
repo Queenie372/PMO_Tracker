@@ -1,0 +1,10 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "./pages/page_login/page_login.scss";
+@import "./pages/page_dashboard/page_dashboard.scss";
